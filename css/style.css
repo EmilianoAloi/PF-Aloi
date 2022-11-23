@@ -99,13 +99,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 65px;
 }
 
 .caja_1 {
     display: flex;
     flex-direction: column;
-    margin-right: 100px;
 }
 
 .caja_1 h2 {
@@ -138,9 +136,8 @@ header {
 }
 
 .caja_2 {
-    width: 400px;
-    margin-left: 50px;
-
+    width: 700px;
+height: 500px;
 }
 
 .float {
@@ -179,12 +176,12 @@ header {
     background-attachment: fixed;
 }
 
-
 .title_pag2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 70px;
+    padding-top: 50px;
 }
 
 .title_pag2 h2 {
@@ -221,7 +218,6 @@ header {
     font-size: 25px;
     padding-top: 15px;
     padding-bottom: 30px;
-
 }
 
 .row1 .art1 .time p {
@@ -239,15 +235,12 @@ header {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-
-
 }
 
 .row1 .art2 .warranty h2 {
     font-size: 25px;
     padding-top: 15px;
     padding-bottom: 30px;
-
 }
 
 .row1 .art2 .warranty p {
@@ -269,7 +262,6 @@ header {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-
 }
 
 .row2 .art3 .lab h2 {
@@ -292,7 +284,6 @@ header {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-
 }
 
 .chat_img {
@@ -308,7 +299,6 @@ header {
 .row2 .art4 .chat p {
     font-size: 25px;
 }
-
 
 
 
@@ -332,7 +322,6 @@ header {
     font-weight: 100;
     text-align: center;
     padding-bottom: 30px;
-    
 }
 
 .consultar {
@@ -392,7 +381,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .op2 {
@@ -403,7 +391,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .op3 {
@@ -414,7 +401,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 /* Fin pag3 */
@@ -441,13 +427,11 @@ header {
 .rep_title_pag1 h2 {
     font-size: 40px;
     padding-top: 60px;
-
 }
 
 .rep_title_pag1 p {
     font-size: 22px;
     padding-top: 30px;
-
 }
 
 .rep_express {
