@@ -17,16 +17,13 @@
 
 /* Main */
 
-/*.portada {
-    height: 90vh;
-    background-image: url(../img/fondoindex.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}*/
+
 
 .foto_portada {
-    width: 40rem;
-    padding-left: 5rem;
+    width: 25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
 }
 
 .bg-light {
@@ -66,7 +63,7 @@
     font-size: 35px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1500px) {
     .float_ul {
         display: none;
     }
@@ -89,6 +86,24 @@
 
 .chat_icon {
     width: 10rem;
+}
+
+@media (max-width: 1000px) {
+    .time {
+        text-align: center;
+    }
+
+    .warranty {
+        text-align: center;
+    }
+
+    .lab {
+        text-align: center;
+    }
+    .chat {
+        text-align: center;
+    }
+
 }
 
 
@@ -196,16 +211,17 @@ footer {
     width: 53px;
 }
 
-@media (max-width: 500px) {
-    footer { 
+@media (max-width: 1100px) {
+    footer {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         background: #000000e6;
-        height: 600px;
+        height: 400px;
         width: 100vw;
     }
+
     .logotipo_footer {
         display: flex;
         flex-direction: column;
@@ -214,19 +230,23 @@ footer {
         padding-top: 20px;
 
     }
+
+    .nombre_logo_footer h3 {
+        display: none;
+    }
+
     .redes_footer {
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        padding-top: 10px;
-        gap: 15px;
+        padding-bottom: 20px;
 
-        
+
     }
+
     .texto_footer {
         color: #FFFFFF;
         font-weight: 400;
-        font-size: 20px;
+        font-size: 12px;
         line-height: 23px;
         text-align: center;
     }
@@ -437,7 +457,7 @@ header {
 
 
 /* ---Grilla--- */
-
+/*
 
 .row1 {
     display: flex;
@@ -550,7 +570,7 @@ header {
 
 /* Index - pag3 */
 
-
+/*
 
 .title_pag3 {
     display: flex;
@@ -614,15 +634,15 @@ header {
 /* Fin pag3 */
 
 /* Inicio reparar.html pag1 */
-
+/*
 .portada_rep {
     height: 90vh;
     background-image: url(../img/fondoindex.jpg);
     background-size: cover;
     background-attachment: fixed;
-}
+}*/
 
-.info_rep {
+/*.info_rep {
     display: flex;
     justify-content: center;
 }
