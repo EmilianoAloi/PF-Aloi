@@ -7,7 +7,25 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Header */
+
+.logo {
+    width: 55px;
+}
+
+
+.foto_portada {
+    width: 500px;
+    padding-left: 3rem;
+}
+
+
+
+
+
+
+
+
+/* Header 
 
 header {
     width: 100%;
@@ -82,11 +100,13 @@ header {
     font-weight: 500;
     text-decoration: none;
 }
+*/
+
 
 /* Fin header */
 
 /* Index - Portada */
-
+/*
 .portada {
     height: 90vh;
     background-image: url(../img/fondoindex.jpg);
@@ -104,6 +124,7 @@ header {
 .caja_1 {
     display: flex;
     flex-direction: column;
+    padding-left: 80px;
 }
 
 .caja_1 h2 {
@@ -123,7 +144,7 @@ header {
     left: 156px;
     top: 556px;
     color: #FFFFFF;
-    font-size: 35px;
+    font-size: 30px;
     font-family: Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -137,13 +158,15 @@ header {
 
 .caja_2 {
     width: 700px;
-height: 500px;
+    height: 500px;
+    padding-top: 20px;
+    padding-left: 60px;
 }
 
 .float {
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 .float_ul {
@@ -181,7 +204,7 @@ height: 500px;
     flex-direction: column;
     align-items: center;
     margin-bottom: 70px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .title_pag2 h2 {
@@ -368,7 +391,7 @@ height: 500px;
     justify-content: center;
     gap: 45px;
     color: #FFFFFF;
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
     padding-bottom: 73px;
 }
@@ -435,8 +458,8 @@ height: 500px;
 }
 
 .rep_express {
-width: 500px;
-padding-right: 40px;
+    width: 500px;
+    padding-right: 40px;
 }
 
 
