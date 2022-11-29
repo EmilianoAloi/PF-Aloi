@@ -15,24 +15,35 @@
 
 <body>
     <!-- Inicio del header -->
-    <header>
-        <div class="logotipo">
-        <a href="../index.html"><img src="../img/isotiponegro.png" alt="phoneFix" class="logo"></a>
-        <div class="nombre_logo">
-            <h1>phoneFix</h1>
-            <h2>iPhone Service</h2>
+    <header class="navbar navbar-expand-lg navbar-light bg-light" border-bottom>
+        <div class="container-fluid">
+            <a href="../index.html"><img src="../img/isotiponegro.png" alt="phoneFix" class="logo"></a>
+            <a class="navbar-brand fw-bold fs-4 ps-2" href="../index.html">phoneFix </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav d-flex fs-5 gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link "  href="../page/reparar.html">Reparar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../page/tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../page/novedades.html">Novedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../page/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
         </div>
-    </div>
-        <nav class="navbar">
-            <ul class="menu">
-                <li class="menu_item"><a href="../index.html">Inicio</a></li>
-                <li class="menu_item"><a href="../page/reparar.html">Reparar</a></li>
-                <li class="menu_item"><a href="../page/tienda.html">Tienda</a></li>
-                <li class="menu_item"><a href="../page/novedades.html">Novedades</a></li>
-                <li class="menu_item"><a href="../page/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-        <a class="llamanos" href="tel:1164906307">Llamanos</a>
     </header>
     <!-- Fin del header -->
 

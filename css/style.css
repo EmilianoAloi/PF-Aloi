@@ -10,26 +10,25 @@
 
 /* Header */
 
-.navbar {
+/*.navbar {
 position: fixed;  
 width: 100vw; 
-
-}
+}*/
 
 .logo {
     width: 55px;
 }
 
 
-/* Inicio Main */
-/*
+/* Inicio Main Index */
+
 main {
     background-image: url(../img/fondoindex.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 
-*/
+
 .foto_portada {
     width: 15rem;
     padding-top: 6rem;
@@ -47,18 +46,22 @@ main {
     }
 }
 
+@media (max-width: 349px) {
+        .portada_titulo {
+            font-size: 29px;
+    }
+}
+
 
 
 .btn-primary {
     background-color: #123846E5;
     border-radius: 10px;
     border-style: none;
+    font-size: 25px;
 
 }
 
-.btn-success {
-    width: 100px;
-}
 
 
 .float_ul {
@@ -92,7 +95,7 @@ main {
     }
 }
 
-/* Pagina 2 */
+/* Pagina 2 Index */
 
 
 .time_icon {
@@ -130,7 +133,52 @@ main {
 }
 
 
-/* Fin Main */
+/* Fin Main Index */
+
+/* Inicio Main Reparar */
+
+
+.foto_portada_reparar {
+    width: 25rem;
+    padding-top: 6rem;
+
+}
+
+@media (min-width: 1000px) {
+    .foto_portada_reparar {
+        width: 25rem;
+        margin-right: 3rem;
+    }
+    .portada_titulo_reparar {
+        padding-top: 5rem;
+
+    }
+}
+
+
+
+.div1_reparar {
+    width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer */
 
@@ -232,8 +280,6 @@ footer {
     .redes_footer {
         padding-bottom: 20px;
         margin-right: 0px;
-
-
 
     }
 

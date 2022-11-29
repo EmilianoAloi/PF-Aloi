@@ -9,34 +9,142 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <title>phoneFix | iPhone Service</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
     <!-- Inicio del header -->
-    <header>
-        <div class="logotipo">
-        <a href="../index.html"><img src="../img/isotiponegro.png" alt="phoneFix" class="logo"></a>
-        <div class="nombre_logo">
-            <h1>phoneFix</h1>
-            <h2>iPhone Service</h2>
+    <header class="navbar navbar-expand-lg navbar-light bg-light" border-bottom>
+        <div class="container-fluid">
+            <a href="../index.html"><img src="../img/isotiponegro.png" alt="phoneFix" class="logo"></a>
+            <a class="navbar-brand fw-bold fs-4 ps-2" href="../index.html">phoneFix </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav d-flex fs-5 gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../page/reparar.html">Reparar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../page/tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../page/novedades.html">Novedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../page/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
         </div>
-    </div>
-        <nav class="navbar">
-            <ul class="menu">
-                <li class="menu_item"><a href="../index.html">Inicio</a></li>
-                <li class="menu_item"><a href="../page/reparar.html">Reparar</a></li>
-                <li class="menu_item"><a href="../page/tienda.html">Tienda</a></li>
-                <li class="menu_item"><a href="../page/novedades.html">Novedades</a></li>
-                <li class="menu_item"><a href="../page/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-        <a class="llamanos" href="tel:1164906307">Llamanos</a>
     </header>
     <!-- Fin del header -->
 
     <!-- Inicio del Main - pagina 1 -->
+
+
+    <main>
+        <section>
+            <div class="container ">
+                <div class="row pt-1 pt-lg-5">
+                    
+                    <div class="col-12 col-lg-6 d-flex justify-content-center">
+                        <img class="mw-100" src="../img/reparacionexpress.png" alt="reparacionexpress">
+                        
+                    </div>
+                    <div class="div1_reparar col-12 col-lg-6 d-flex flex-column align-items-lg-start justify-content-lg-center pb-2 ps-lg-5 order-lg-last">
+                        <h1 class="display-5 fw-bold text-center text-lg-start">Reparacion Express</h1>
+                        <p class="portada_texto_reparar h5 text-center text-lg-start">Pedí tu presupuesto sin cargo y consultanos por nuestro servicio puerta a puerta. Muchos de los arreglos son el día para que no te quedes sin tu iPhone.</p>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+        <!--  <div class=" col-12 col-lg-6 d-flex justify-content-center align-items-start  ">
+            <img class="foto_portada_reparar" src="../img/isologotipobnnegro.png" alt="iPhone_reparar">
+        </div>
+
+        <div
+            class="portada_texto col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center align-items-lg-start order-lg-last">
+            <h1 class="portada_titulo_reparar display-3 fw-bold">Reparacion Express</h1>
+            <p class="h3 text-start ">Pedí tu presupuesto sin cargo y consultanos por nuestro servicio puerta a puerta.
+                Muchos de los arreglos son el día para que no te quedes sin tu iPhone</p>
+        </div>
+    -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--
+    
     <main>
         <div class="portada_rep">
         <section class="info_rep">
@@ -71,7 +179,8 @@
         </section>
     </div>
 
-        <!-- Pagina 2 -->
+         Pagina2
+
 
         <section>
             <article>
@@ -103,7 +212,7 @@
             </article>
         </section>
 
-        <!-- Pagina 3 -->
+        Pagina 3 
 
         <article>
             <h2>Mira alguna de las reparaciones que hacemos
@@ -126,9 +235,11 @@
                 EL PROBLEMA ES UN COMPONENTE DE LA PLACA Y SE PUEDE REPARAR</p>
         </article>
     </main>
-    <!-- Fin del Main -->
 
-    <!-- inicio del footer -->
+     Fin del Main 
+-->
+    </main>
+
     <footer>
         <div class="logotipo_footer">
             <a href="../index.html"><img src="../img/isotiponegro.png" alt="phoneFix" class="logo_footer"></a>
@@ -147,9 +258,11 @@
             <a href="https://www.twitter.com"><img src="../img/twitterlogo.png" alt="twitterlogo" class="tw_logo"></a>
         </div>
     </footer>
-    <!-- Fin del footer -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
