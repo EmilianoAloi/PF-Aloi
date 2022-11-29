@@ -14,6 +14,7 @@
 .navbar {
 position: fixed;  
 width: 100vw; 
+z-index: 1;
 }
 
 .logo {
@@ -139,7 +140,7 @@ main {
 /* Inicio Main Reparar */
 
 .pag2_reparar {
-    padding-top: 5rem;
+    padding-top: 6rem;
 }
 
 
@@ -152,12 +153,15 @@ main {
 padding-bottom: 2rem;
 }
 
+.tarjetas_reparar {
+    padding-bottom: 5rem;
+}
 
 .repdestacadas_title {
     background-color: #5e7781;
     color: white;
-    height: 5rem;
-    width: 70rem;
+    height: 4rem;
+    width: 60rem;
     display: flex;
     justify-content: center;
     align-items: center;
