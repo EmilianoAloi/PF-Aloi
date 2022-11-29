@@ -10,29 +10,36 @@
 
 /* Header */
 
+.navbar {
+position: fixed;  
+width: 100vw; 
+
+}
+
 .logo {
     width: 55px;
 }
 
 
 /* Inicio Main */
-
+/*
 main {
     background-image: url(../img/fondoindex.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 
-
+*/
 .foto_portada {
     width: 15rem;
+    padding-top: 6rem;
 
 }
 
 @media (min-width: 1000px) {
     .foto_portada {
         width: 20rem;
-        padding-top: 5rem;
+        padding-top: 10rem;
         margin-right: 3rem;
     }
     .portada_texto {
