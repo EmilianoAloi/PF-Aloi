@@ -15,26 +15,42 @@
 }
 
 
-/* Main */
+/* Inicio Main */
 
+main {
+    background-image: url(../img/fondoindex.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 
 .foto_portada {
-    width: 25rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    width: 15rem;
 
 }
 
-.bg-light {
-    background-color: #123846E5;
+@media (min-width: 1000px) {
+    .foto_portada {
+        width: 20rem;
+        padding-top: 5rem;
+        margin-right: 3rem;
+    }
+    .portada_texto {
+        padding-left: 65px;
+    }
 }
+
+
 
 .btn-primary {
     background-color: #123846E5;
     border-radius: 10px;
     border-style: none;
 
+}
+
+.btn-success {
+    width: 100px;
 }
 
 
@@ -107,42 +123,7 @@
 }
 
 
-.title2_pag2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 100px;
-}
-
-.title2_pag2 h2 {
-    font-size: 40px;
-}
-
-.title2_pag2 p {
-    font-size: 25px;
-    font-weight: 100;
-    text-align: center;
-    padding-bottom: 30px;
-}
-
-.consultar {
-
-    width: 315px;
-    height: 72px;
-    background: #123846E5;
-    border-radius: 28px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFFFFF;
-    font-size: 28px;
-    font-family: Helvetica, sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-}
-
-
-/* fin index */
+/* Fin Main */
 
 /* Footer */
 
@@ -231,14 +212,20 @@ footer {
 
     }
 
+    .nombre_logo_footer {
+        margin-top: 0px;
+    }
+    .nombre_logo_footer h2 {
+        margin-bottom: 0px;
+    }
     .nombre_logo_footer h3 {
         display: none;
     }
 
     .redes_footer {
-        display: flex;
-        align-items: center;
         padding-bottom: 20px;
+        margin-right: 0px;
+
 
 
     }
