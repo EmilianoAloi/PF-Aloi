@@ -10,10 +10,11 @@
 
 /* Header */
 
-/*.navbar {
+
+.navbar {
 position: fixed;  
 width: 100vw; 
-}*/
+}
 
 .logo {
     width: 55px;
@@ -137,29 +138,38 @@ main {
 
 /* Inicio Main Reparar */
 
-
-.foto_portada_reparar {
-    width: 25rem;
-    padding-top: 6rem;
-
+.pag2_reparar {
+    padding-top: 5rem;
 }
-
-@media (min-width: 1000px) {
-    .foto_portada_reparar {
-        width: 25rem;
-        margin-right: 3rem;
-    }
-    .portada_titulo_reparar {
-        padding-top: 5rem;
-
-    }
-}
-
 
 
 .div1_reparar {
     width: 600px;
 }
+
+.foto_portada_reparar {
+
+padding-bottom: 2rem;
+}
+
+
+.repdestacadas_title {
+    background-color: #5e7781;
+    color: white;
+    height: 5rem;
+    width: 70rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.btn-secondary {
+    background-color: #5e7781;
+    border-color: #5e7781;
+}
+
+
 
 
 
