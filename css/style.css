@@ -5,17 +5,22 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    
 }
+
 
 
 /* Header */
 
 
 .navbar {
+background-color: #edede6 !important; 
 position: fixed;  
 width: 100vw; 
 z-index: 1;
 }
+
+
 
 .logo {
     width: 55px;
@@ -55,9 +60,8 @@ main {
 }
 
 
-
 .btn-primary {
-    background-color: #123846E5;
+    background-color: #286378;
     border-radius: 10px;
     border-style: none;
     font-size: 25px;
@@ -67,7 +71,7 @@ main {
 
 
 .float_ul {
-    background-color: #123846aa;
+    background-color: #77acc0;
     width: 80vw;
     height: 70px;
     border-radius: 30px;
@@ -154,29 +158,57 @@ padding-bottom: 2rem;
 }
 
 .tarjetas_reparar {
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
 }
 
+
 .repdestacadas_title {
-    background-color: #5e7781;
+    background-color: #286378;
     color: white;
     height: 4rem;
-    width: 60rem;
+    width: 50rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
 }
 
-.btn-secondary {
-    background-color: #5e7781;
-    border-color: #5e7781;
+.btn-info {
+    background-color: #286378;
+    border-color: #286378;
+    color: #FFFFFF;
 }
 
+.trabajos_slide {
+    background-color: #286378;
+    color: white;
+    width: 70rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+}
 
+.carrousel1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
 
+}
 
+/* Inicio Main Contacto */
 
+.portada_contacto {
+    padding-top: 6rem;
+
+}
+
+.texto_contacto {
+    margin: 0px;
+}
 
 
 
