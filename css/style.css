@@ -59,8 +59,8 @@ main {
 .btn-primary {
     background-color: #286378;
     border-radius: 10px;
-    border-style: none;
     font-size: 25px;
+    border-style: none;
 }
 
 .float_ul {
@@ -240,11 +240,12 @@ main {
 .carrousel1 {
     z-index: 0;
     margin-bottom: 30px;
-    
+
 }
+
 .carousel-item img {
     border-radius: 30px;
-    
+
 }
 
 
@@ -257,11 +258,58 @@ main {
 
 
 
+/*Inicio Main Accesorios */
+
+.accesorios_page {
+
+    padding-top: 6rem;
+}
+
+.title_acc {
+    background-color: #77acc0;
+    color: white;
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Inicio Main Contacto */
 
 .portada_contacto {
     padding-top: 6rem;
+    background-color: #77acc0;
+    border-radius: 50px;
 }
+
 .texto_contacto {
     margin: 0px;
 }
@@ -280,6 +328,7 @@ footer {
     height: 156px;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .logotipo_footer {
@@ -347,7 +396,7 @@ footer {
         align-items: center;
         background: #000000e6;
         height: 400px;
-        width: 100vw;
+        width: 100%;
     }
 
     .logotipo_footer {
