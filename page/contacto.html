@@ -9,8 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <title>phoneFix | iPhone Service</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/isotiponegro.ico">
 </head>
 
 <body>
@@ -29,10 +31,10 @@
                         <a class="nav-link" href="../index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link "  href="../page/reparar.html">Reparar</a>
+                        <a class="nav-link " href="../page/reparar.html">Reparar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link "  href="../page/accesorios.html">Accesorios</a>
+                        <a class="nav-link " href="../page/accesorios.html">Accesorios</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../page/novedades.html">Novedades</a>
@@ -49,88 +51,104 @@
 
     <!-- Inicio del Main  -->
     <main>
-        <section class=" container portada_contacto d-flex flex-column justify-content-center align-items-center">
-        <div class="texto_contacto">
-            <h2 class="h3 text-center">Hablemos</h2>
-            <span class="h5">Contactanos y te responderemos en breve.</span>
-        </div>
-        <div class="contaniner"></div>
-        <form action="">
-            <div>
-                <label for="nombre-user"></label>
-                <input type="text" id="nombre-user" placeholder="Mi nombre" required>
+        <section class="container">
+
+            <div class="row portada_contacto d-flex align-items-center justify-content-center">
+                <div class="formulario col-12 col-lg-6 ms-2 me-2">
+                    <div class="titulo_form d-flex flex-column align-items-center">
+                        <h2 class="h3 text-center pt-3">Hablemos</h2>
+                        <span class="h5 text-center">Contactanos y te responderemos en breve.</span>
+                    </div>
+                    <form>
+                        <div class="pb-2">
+                            <label for="nombre-user"></label>
+                            <input type="text" id="nombre-user" placeholder="Mi nombre" required>
+                        </div>
+                        <div class="pb-2">
+                            <label for="email-user"></label>
+                            <input type="email" name="" id="email-user" placeholder="Mi email" required>
+                        </div>
+                            <div>
+                                <label for="tel-user"></label>
+                                <input type="tel" name="" id="tel-user" placeholder="Mi telefono" required>
+                            </div>
+                            <div>
+                                <label for="iphone-user"></label>
+                                <select name="" id="iphone-user" required>
+                                    <option disabled selected value="">Mi iPhone</option>
+                                    <option value="iPhone 6">iPhone 6</option>
+                                    <option value="iPhone 6s">iPhone 6s</option>
+                                    <option value="iPhone 6s Plus">iPhone 6s Plus</option>
+                                    <option value="iPhone 7">iPhone 7</option>
+                                    <option value="iPhone 7 Plus">iPhone 7 Plus</option>
+                                    <option value="iPhone 8">iPhone 8</option>
+                                    <option value="iPhone 8 Plus ">iPhone 8 Plus</option>
+                                    <option value="iPhone X">iPhone X</option>
+                                    <option value="iPhone Xs">iPhone Xs</option>
+                                    <option value="iPhone Xs Max">iPhone Xs Max</option>
+                                    <option value="iPhone Xr">iPhone Xr</option>
+                                    <option value="iPhone 11">iPhone 11</option>
+                                    <option value="iPhone 11 Pro">iPhone 11 Pro</option>
+                                    <option value="iPhone 12">iPhone 12</option>
+                                    <option value="iPhone 12 Pro">iPhone</option>
+                                    <option value="iPhone 12 Pro Max">iPhone 12 Pro Max</option>
+                                    <option value="iPhone 13">iPhone 13</option>
+                                    <option value="iPhone 13 mini ">iPhone 13 mini</option>
+                                    <option value="iPhone 13 Pro">iPhone 13 Pro</option>
+                                    <option value="iPhone 13 Pro Max">iPhone 13 Pro Max</option>
+                                    <option value="iPhone 14">iPhone 14</option>
+                                    <option value="iPhone 14 Pro Max">iPhone 14 Pro Max</option>
+                                    <option value="iPhone 14 Plus">iPhone 14 Plus</option>
+                                </select>
+                        </div>
+
+                            <div>
+                                <label for="falla-user"></label>
+                                <select name="" id="falla-user">
+                                    <option disabled selected value="">¿Que necesitas reparar?</option>
+                                    <option value="No enciende">No enciende</option>
+                                    <option value="Sin imagen">Sin imagen</option>
+                                    <option value="Sin señal">Sin señal</option>
+                                    <option value="No carga">No carga</option>
+                                    <option value="Ingreso de liquido">Ingreso de liquido</option>
+                                    <option value="Otra falla">Otra falla</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="color-iphone-user"></label>
+                                <select name="" id="color-iphone-user">
+                                    <option disabled selected value="">Color</option>
+                                    <option value="Blanco">Blanco</option>
+                                    <option value="Negro">Negro</option>
+                                    <option value="Azul">Azul</option>
+                                    <option value="Aqua">Aqua</option>
+                                    <option value="Amarillo">Amarillo</option>
+                                    <option value="Rojo">Rojo</option>
+                                </select>
+                            </div>
+                        <div class="d-flex flex-column pb-2">
+                            <label for="mensaje-user">Mensaje</label>
+                            <textarea name="" id="mensaje-user" cols="10" rows="10"></textarea>
+                        <div class="pb-2">
+                            <label for="consulta-user"></label>
+                            <input type="submit" value="Enviar consulta" id="consulta-user">
+                        </div>
+                    </div>
+
+                    </form>
+                </div>
+
+                <div class="col-12 col-lg-6 d-flex flex-column align-items-lg-start">
+                    <h2>Informacion de contacto</h2>
+                    <span>Sucursal Belgrano: La Pampa 2798</span>
+                    <span>Telefono: (011) 4788-1888</span>
+                    <span>Email: info@phone-fix.com.ar</span>
+
+                </div>
             </div>
-            <div>
-                <label for="email-user"></label>
-                <input type="email" name="" id="email-user" placeholder="Mi email" required>
-            </div>
-            <div>
-                <label for="tel-user"></label>
-                <input type="tel" name="" id="tel-user" placeholder="Mi telefono" required>
-            </div>
-            <div>
-                <label for="iphone-user"></label>
-                <select name="" id="iphone-user" required>
-                    <option disabled selected value="">Mi iPhone</option>
-                    <option value="iPhone 6">iPhone 6</option>
-                    <option value="iPhone 6s">iPhone 6s</option>
-                    <option value="iPhone 6s Plus">iPhone 6s Plus</option>
-                    <option value="iPhone 7">iPhone 7</option>
-                    <option value="iPhone 7 Plus">iPhone 7 Plus</option>
-                    <option value="iPhone 8">iPhone 8</option>
-                    <option value="iPhone 8 Plus ">iPhone 8 Plus</option>
-                    <option value="iPhone X">iPhone X</option>
-                    <option value="iPhone Xs">iPhone Xs</option>
-                    <option value="iPhone Xs Max">iPhone Xs Max</option>
-                    <option value="iPhone Xr">iPhone Xr</option>
-                    <option value="iPhone 11">iPhone 11</option>
-                    <option value="iPhone 11 Pro">iPhone 11 Pro</option>
-                    <option value="iPhone 12">iPhone 12</option>
-                    <option value="iPhone 12 Pro">iPhone</option>
-                    <option value="iPhone 12 Pro Max">iPhone 12 Pro Max</option>
-                    <option value="iPhone 13">iPhone 13</option>
-                    <option value="iPhone 13 mini ">iPhone 13 mini</option>
-                    <option value="iPhone 13 Pro">iPhone 13 Pro</option>
-                    <option value="iPhone 13 Pro Max">iPhone 13 Pro Max</option>
-                    <option value="iPhone 14">iPhone 14</option>
-                    <option value="iPhone 14 Pro Max">iPhone 14 Pro Max</option>
-                    <option value="iPhone 14 Plus">iPhone 14 Plus</option>
-                </select>
-            </div>
-            <div>
-                <label for="color-iphone-user"></label>
-                <select name="" id="color-iphone-user">
-                    <option disabled selected value="">Color</option>
-                    <option value="Blanco">Blanco</option>
-                    <option value="Negro">Negro</option>
-                    <option value="Azul">Azul</option>
-                    <option value="Aqua">Aqua</option>
-                    <option value="Amarillo">Amarillo</option>
-                    <option value="Rojo">Rojo</option>
-                </select>
-            </div>
-            <div>
-                <label for="falla-user"></label>
-                <select name="" id="falla-user">
-                    <option disabled selected value="">¿Que necesitas reparar?</option>
-                    <option value="No enciende">No enciende</option>
-                    <option value="Sin imagen">Sin imagen</option>
-                    <option value="Sin señal">Sin señal</option>
-                    <option value="No carga">No carga</option>
-                    <option value="Ingreso de liquido">Ingreso de liquido</option>
-                    <option value="Otra falla">Otra falla</option>
-                </select>
-            </div>
-            <div>
-                <label for="mensaje-user">Mensaje</label>
-                <textarea name="" id="mensaje-user" cols="30" rows="10"></textarea>
-            </div>
-            <div>
-                <label for="consulta-user"></label>
-                <input type="submit" value="Enviar consulta" id="consulta-user">
-            </div>
-        </form>
-    </section>
+
+
+        </section>
     </main>
     <!-- Fin del Main -->
 
@@ -155,7 +173,9 @@
     </footer>
     <!-- Fin del footer -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
