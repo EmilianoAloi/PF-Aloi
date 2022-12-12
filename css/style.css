@@ -57,8 +57,8 @@ main {
 }
 
 .btn-primary {
-    background-color: #286378;
-    border-radius: 10px;
+    background-color: #77acc0;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;      border-radius: 10px;
     font-size: 25px;
     border-style: none;
 }
@@ -211,9 +211,11 @@ main {
     transition: all 1s;
 }
 
-.btn-info {
-    background-color: #286378;
-    border-color: #286378;
+.btn-dark {
+    background-color: #77acc0;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-color: #77acc0;
     color: #FFFFFF;
 }
 
@@ -281,25 +283,31 @@ main {
 
 
 
+/*Inicio Main Novedades */
 
+.novedades {
+    padding-top: 6rem;
+}
 
+.card_nov {
+    width: fit-content;
+    border-radius: 0px;
+    margin: 0;
+    padding: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.title_nov {
+    background-color: #77acc0;
+    color: white;
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
 
 
 /* Inicio Main Contacto */
@@ -314,7 +322,8 @@ main {
     color: #FFFFFF;
     width: 350px;
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;}
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
 
 .form_input {
     width: 300px;
@@ -324,20 +333,57 @@ main {
     width: 140px;
 }
 
+.form_submit {
+    width: 150px;
+}
+
 .info_contacto {
     background-color: #77acc0;
     color: white;
-    height:min-content;
+    height: min-content;
     width: max-content;
     padding: 15px;
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;}
-
-
-
-.mapa {
-    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+
+
+@media (min-width:995px) {
+
+    .formulario {
+        width: 600px;
+    }
+
+    .form_input {
+        width: 500px;
+    }
+
+    .form_input2 {
+        width: 240px;
+    }
+
+
+    .info_contacto {
+        height: 300;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Footer */
 
 footer {
