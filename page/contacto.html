@@ -53,28 +53,31 @@
     <main>
         <section class="container">
 
-            <div class="row portada_contacto d-flex align-items-center justify-content-center">
-                <div class="formulario col-12 col-lg-6 ms-2 me-2">
+            <div class="row portada_contacto d-flex  justify-content-center">
+                <div class="formulario col-12 col-lg-6 ms-2 me-2 mb-5">
                     <div class="titulo_form d-flex flex-column align-items-center">
-                        <h2 class="h3 text-center pt-3">Hablemos</h2>
-                        <span class="h5 text-center">Contactanos y te responderemos en breve.</span>
+                        <h2 class="h3 fw-bold text-center pt-3">Hablemos</h2>
+                        <span class="h5 text-center pb-4">Contactanos y te responderemos en breve.</span>
                     </div>
-                    <form>
+                    <form class="d-flex flex-column align-items-center">
                         <div class="pb-2">
                             <label for="nombre-user"></label>
-                            <input type="text" id="nombre-user" placeholder="Mi nombre" required>
+                            <input class="form_input" type="text" id="nombre-user" placeholder="Mi nombre" required>
                         </div>
                         <div class="pb-2">
                             <label for="email-user"></label>
-                            <input type="email" name="" id="email-user" placeholder="Mi email" required>
+                            <input class="form_input" type="email" name="" id="email-user" placeholder="Mi email"
+                                required>
                         </div>
-                            <div>
-                                <label for="tel-user"></label>
-                                <input type="tel" name="" id="tel-user" placeholder="Mi telefono" required>
-                            </div>
+                        <div class="pb-2">
+                            <label for="tel-user"></label>
+                            <input class="form_input" type="tel" name="" id="tel-user" placeholder="Mi telefono"
+                                required>
+                        </div>
+                        <div class="d-flex gap-3 pb-2">
                             <div>
                                 <label for="iphone-user"></label>
-                                <select name="" id="iphone-user" required>
+                                <select class="form_input2" name="" id="iphone-user" required>
                                     <option disabled selected value="">Mi iPhone</option>
                                     <option value="iPhone 6">iPhone 6</option>
                                     <option value="iPhone 6s">iPhone 6s</option>
@@ -100,23 +103,10 @@
                                     <option value="iPhone 14 Pro Max">iPhone 14 Pro Max</option>
                                     <option value="iPhone 14 Plus">iPhone 14 Plus</option>
                                 </select>
-                        </div>
-
-                            <div>
-                                <label for="falla-user"></label>
-                                <select name="" id="falla-user">
-                                    <option disabled selected value="">¿Que necesitas reparar?</option>
-                                    <option value="No enciende">No enciende</option>
-                                    <option value="Sin imagen">Sin imagen</option>
-                                    <option value="Sin señal">Sin señal</option>
-                                    <option value="No carga">No carga</option>
-                                    <option value="Ingreso de liquido">Ingreso de liquido</option>
-                                    <option value="Otra falla">Otra falla</option>
-                                </select>
                             </div>
                             <div>
                                 <label for="color-iphone-user"></label>
-                                <select name="" id="color-iphone-user">
+                                <select class="form_input2" name="" id="color-iphone-user">
                                     <option disabled selected value="">Color</option>
                                     <option value="Blanco">Blanco</option>
                                     <option value="Negro">Negro</option>
@@ -126,24 +116,42 @@
                                     <option value="Rojo">Rojo</option>
                                 </select>
                             </div>
-                        <div class="d-flex flex-column pb-2">
-                            <label for="mensaje-user">Mensaje</label>
-                            <textarea name="" id="mensaje-user" cols="10" rows="10"></textarea>
-                        <div class="pb-2">
-                            <label for="consulta-user"></label>
-                            <input type="submit" value="Enviar consulta" id="consulta-user">
                         </div>
-                    </div>
+                        <div class="pb-2">
+                            <label for="falla-user"></label>
+                            <select class="form_input" name="" id="falla-user">
+                                <option disabled selected value="">¿Que necesitas reparar?</option>
+                                <option value="No enciende">No enciende</option>
+                                <option value="Sin imagen">Sin imagen</option>
+                                <option value="Sin señal">Sin señal</option>
+                                <option value="No carga">No carga</option>
+                                <option value="Ingreso de liquido">Ingreso de liquido</option>
+                                <option value="Otra falla">Otra falla</option>
+                            </select>
+                        </div>
+
+                        <div class="d-flex flex-column align-items-center ">
+                            <label for="mensaje-user ">Mensaje</label>
+                            <textarea class="form_input" name="" id="mensaje-user" cols="10" rows="10"></textarea>
+                            <div class="d-flex pt-4 pb-4">
+                                <label for="consulta-user"></label>
+                                <input class="form_submit" type="submit" value="Enviar consulta" id="consulta-user">
+                            </div>
+                        </div>
 
                     </form>
                 </div>
 
-                <div class="col-12 col-lg-6 d-flex flex-column align-items-lg-start">
-                    <h2>Informacion de contacto</h2>
+                <div class="info_contacto col-12 col-lg-6 d-flex flex-column align-items-start ">
+                    <h2 class="fw-bold">Informacion de contacto</h2>
                     <span>Sucursal Belgrano: La Pampa 2798</span>
                     <span>Telefono: (011) 4788-1888</span>
                     <span>Email: info@phone-fix.com.ar</span>
-
+                    <h4 class="fw-bold pt-4">Ubicacion:</h4>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.4751303621165!2d-58.46044542450465!3d-34.56684247296753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d6d7dc8377%3A0x39ebb272089c48f!2sLa%20Pampa%202798%2C%20C1428EAX%20CABA!5e0!3m2!1ses-419!2sar!4v1670853156816!5m2!1ses-419!2sar"
+                        width="350" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 
