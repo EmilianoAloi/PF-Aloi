@@ -1,0 +1,87 @@
+.portada__foto {
+    width: 15rem;
+    padding-top: 6rem;
+    transform: scale(1.13);
+}
+
+@media (min-width: 1000px) {
+    .portada__foto {
+        width: 20rem;
+        padding-top: 10rem;
+        margin-right: 3rem;
+    }
+
+    .portada__texto {
+        padding-left: 65px;
+    }
+}
+
+@media (max-width: 349px) {
+    .portada__titulo {
+        font-size: 29px;
+    }
+}
+
+.float {
+    background-color: #77acc0;
+    width: 80vw;
+    height: 70px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+    
+&__separador {
+    font-weight: 100;
+    font-size: 35px;
+}
+}
+
+@media (max-width: 1470px) {
+    .float {
+        display: none;
+    }
+}
+
+
+.servicios__time:hover {
+    transform: scale(1.1)
+}
+
+.servicios__time {
+transition: all 1s;
+}
+
+.servicios__warranty:hover {
+    transform: scale(1.1)
+}
+
+.servicios__warranty {
+    transition: all 1s;
+}
+
+.servicios__lab:hover {
+    transform: scale(1.1)
+}
+
+.servicios__lab {
+    transition: all 1s;
+}
+
+.servicios__chat:hover {
+    transform: scale(1.1)
+}
+
+.servicios__chat {
+    transition: all 1s;
+}

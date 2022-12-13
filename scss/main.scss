@@ -1,0 +1,17 @@
+@import "./utils/variables";
+@import "./utils/mixin";
+
+@import "./base/base";
+
+@import "./components/header";
+@import "./components/boton";
+@import "./components/carrousel";
+@import "./components/footer";
+@import "./components/tarjeta";
+
+@import "./page/index";
+@import "./page/reparar"; 
+@import "./page/accesorios";
+@import "./page/novedades";
+@import "./page/contacto";
+

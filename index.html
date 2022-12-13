@@ -20,7 +20,7 @@
 
     <header class="navbar navbar-expand-lg navbar-light bg-light" border-bottom>
         <div class="container-fluid">
-            <a href="./index.html"><img src="./img/isotiponegro.png" alt="phoneFix" class="logo"></a>
+            <a href="./index.html"><img src="./img/isotiponegro.png" alt="phoneFix" class="navbar__logo"></a>
             <a class="navbar-brand fw-bold fs-4 ps-2" href="./index.html">phoneFix </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,92 +51,81 @@
     <!-- Inicio del Main - Pagina 1 -->
 
     <main>
-        <section>
+        <section class="portada container">
 
-            <div class="container">
-                <article class="row ">
-                    <div
-                        class=" div_foto_portada col-12 col-lg-6 d-flex justify-content-center align-items-start order-lg-last ">
-                        <img class="foto_portada" src="./img/index1.png" alt="iphone roto">
-                    </div>
-                    <div
-                        class="portada_texto col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center align-items-lg-start">
-                        <h1 class="portada_titulo display-3 fw-bold">Repará tu iPhone</h1>
-                        <p class="h3 text-start ">En 30 minutos. <br> 6 meses de garantía. <br> Cuotas sin
-                            interes.</p>
-                        <a type="button" class="btn btn-primary mt-4 p-4" href="./page/contacto.html">PRESUPUESTAR</a>
-                    </div>
-                </article>
+            <article class="row ">
+                <div class="col-12 col-lg-6 d-flex justify-content-center align-items-start order-lg-last ">
+                    <img class="portada__foto" src="./img/index1.png" alt="iPhone roto">
+                </div>
 
-
-                <article class="float">
-                    <ul class="float_ul">
-                        <li>Servicio Express</li>
-                        <li class="separador">|</li>
-                        <li>Medios de Pago</li>
-                        <li class="separador">|</li>
-                        <li>Repuestos PREMIUM</li>
-                        <li class="separador">|</li>
-                        <li>Soporte Tecnico</li>
-                    </ul>
-                </article>
+                <div
+                    class="portada__texto col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center align-items-lg-start">
+                    <h1 class="portada__titulo display-3 fw-bold">Repará tu iPhone</h1>
+                    <p class="h3 text-start ">En 30 minutos. <br> 6 meses de garantía. <br> Cuotas sin
+                        interes.</p>
+                    <a type="button" class="btn btn-primary mt-4 p-4" href="./page/contacto.html">PRESUPUESTAR</a>
+                </div>
+            </article>
 
         </section>
 
-        <!-- Pagina 2 -->
+        <article class="d-flex justify-content-center">
+            <ul class="float">
+                <li>Servicio Express</li>
+                <li class="float__separador">|</li>
+                <li>Medios de Pago</li>
+                <li class="float__separador">|</li>
+                <li>Repuestos PREMIUM</li>
+                <li class="float__separador">|</li>
+                <li>Soporte Tecnico</li>
+            </ul>
+        </article>
 
-        <section class="pb-5">
+        <section class="servicios pb-5">
             <div class="container">
-                <div class="title_pag2 text-center">
-                    <h2 class="fw-bold text-center mt-5">¿Falla tu iPhone?</h2>
-                    <h3 class="text-center mb-5">Estamos acá para ayudarte.</h3>
-                </div>
+                <h2 class="fw-bold text-center mt-5">¿Falla tu iPhone?</h2>
+                <h3 class="text-center mb-5">Estamos acá para ayudarte.</h3>
+
                 <div class="container">
                     <div class="row pt-1">
-
                         <article
-                            class="index_icon1 col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center  gap-3">
-                            <img class="time_icon" src="./img/time.png" alt="tiempo">
-                            <div class="time">
-                                <h2 class="fs-3 fw-bold">Reparación Express</h2>
-                                <p class="fs-5">En menos de 30 minutos <br> salvamos tu iPhone sin <br> necesidad de
-                                    pedir turno.
-                                </p>
-                            </div>
+                            class="servicios__time col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center pb-3 gap-2">
+                            <img src="./img/time.png" alt="tiempo">
+                            <h2 class="fs-3 fw-bold text-center">Reparación Express</h2>
+                            <p class="fs-5 text-center">En menos de 30 minutos <br> salvamos tu iPhone sin <br>
+                                necesidad de
+                                pedir turno.
+                            </p>
                         </article>
 
 
                         <article
-                            class="index_icon2 col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center gap-3">
-                            <img class="warranty_icon" src="./img/warranty.png" alt="garantia">
-                            <div class="warranty">
-                                <h2 class="fs-3 fw-bold">Garantia de 90 dias</h2>
-                                <p class="fs-5  ">Ofrecemos garantía para todos <br> nuestros trabajos para tu <br>
-                                    tranquilidad y
-                                    comodidad.</p>
-                            </div>
+                            class="servicios__warranty col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center gap-3 pb-1">
+                            <img src="./img/warranty.png" alt="garantia">
+                            <h2 class="fs-3 fw-bold text-center">Garantia de 90 dias</h2>
+                            <p class="fs-5 text-center ">Ofrecemos garantía para <br> todos nuestros trabajos para
+                                tu <br>
+                                tranquilidad y
+                                comodidad.</p>
                         </article>
                     </div>
                     <div class="container">
                         <div class="row pt-4">
                             <article
-                                class="index_icon3 col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center ps-3 pe-lg-2 gap-3">
-                                <img class="lab_icon" src="./img/lab.png" alt="lab">
-                                <div class="lab ">
-                                    <h2 class="fs-3 fw-bold">Laboratorio Nivel 3</h2>
-                                    <p class="fs-5">Contamos con laboratorio <br> de la ultima tecnologia.
-                                    </p>
-                                </div>
+                                class="servicios__lab col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center  gap-3">
+                                <img src="./img/lab.png" alt="lab">
+                                <h2 class="fs-3 fw-bold text-center">Laboratorio Nivel 3</h2>
+                                <p class="fs-5 text-center">Contamos con laboratorio <br> de la ultima tecnologia.
+                                </p>
                             </article>
                             <article
-                                class="index_icon4 col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center mt-4 gap-3">
-                                <img class="chat_icon" src="./img/chat.png" alt="chat">
-                                <div class="chat">
-                                    <h2 class="fs-3 fw-bold ">Asistencia Online</h2>
-                                    <p class="fs-5  ">Podes chatear con nosotros 24/7. <br> Consulta por tu reparacion
-                                        <br> Sacate cualquier duda!
-                                    </p>
-                                </div>
+                                class="servicios__chat col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center mt-2 gap-3">
+                                <img src="./img/chat.png" alt="chat">
+                                <h2 class="fs-3 fw-bold text-center">Asistencia Online</h2>
+                                <p class="fs-5 text-center">Podes chatear con nosotros. <br> Consulta por tu
+                                    reparacion
+                                    <br> Sacate cualquier duda!
+                                </p>
                             </article>
                         </div>
                     </div>
