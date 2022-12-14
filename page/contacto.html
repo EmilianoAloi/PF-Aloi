@@ -54,8 +54,8 @@
         <section class="container">
 
             <div
-                class="row portada_contacto d-flex justify-content-center justify-content-lg-around align-items-lg-center">
-                <div class="formulario col-12 col-lg-6 ms-2 me-2 mb-5 ">
+                class="contacto row  d-flex justify-content-center justify-content-lg-around align-items-lg-center">
+                <div class="contacto__form col-12 col-lg-6 ms-2 me-2 mb-5 ">
                     <div class="titulo_form d-flex flex-column align-items-center">
                         <h2 class="h3 fw-bold text-center pt-3">Hablemos</h2>
                         <span class="h5 text-center pb-3">Te responderemos en breve.</span>
@@ -63,22 +63,22 @@
                     <form class="d-flex flex-column align-items-center">
                         <div class="pb-2">
                             <label for="nombre-user"></label>
-                            <input class="form_input ps-2" type="text" id="nombre-user" placeholder="Mi nombre" required>
+                            <input class="contacto__form--input form_input ps-2" type="text" id="nombre-user" placeholder="Mi nombre" required>
                         </div>
                         <div class="pb-2">
                             <label for="email-user"></label>
-                            <input class="form_input ps-2" type="email" name="" id="email-user" placeholder="Mi email"
+                            <input class="contacto__form--input form_input ps-2" type="email" name="" id="email-user" placeholder="Mi email"
                                 required>
                         </div>
                         <div class="pb-2">
                             <label for="tel-user"></label>
-                            <input class="form_input ps-2" type="tel" name="" id="tel-user" placeholder="Mi telefono"
+                            <input class="contacto__form--input form_input ps-2" type="tel" name="" id="tel-user" placeholder="Mi telefono"
                                 required>
                         </div>
                         <div class="d-flex gap-3 pb-2">
                             <div>
                                 <label for="iphone-user"></label>
-                                <select class="form_input2 ps-2" name="" id="iphone-user" required>
+                                <select class="contacto__form--input1 form_input ps-2" name="" id="iphone-user" required>
                                     <option disabled selected value="">Mi iPhone</option>
                                     <option value="iPhone 6">iPhone 6</option>
                                     <option value="iPhone 6s">iPhone 6s</option>
@@ -107,7 +107,7 @@
                             </div>
                             <div>
                                 <label for="color-iphone-user"></label>
-                                <select class="form_input2 ps-2" name="" id="color-iphone-user">
+                                <select class="contacto__form--input1 form_input ps-2" name="" id="color-iphone-user">
                                     <option disabled selected value="">Color</option>
                                     <option value="Blanco">Blanco</option>
                                     <option value="Negro">Negro</option>
@@ -120,7 +120,7 @@
                         </div>
                         <div class="pb-2">
                             <label for="falla-user"></label>
-                            <select class="form_input ps-2" name="" id="falla-user">
+                            <select class="contacto__form--input form_input ps-2" name="" id="falla-user">
                                 <option disabled selected value="">¿Que necesitas reparar?</option>
                                 <option value="No enciende">No enciende</option>
                                 <option value="Sin imagen">Sin imagen</option>
@@ -133,17 +133,17 @@
 
                         <div class="d-flex flex-column align-items-center ">
                             <label for="mensaje-user ">Mensaje</label>
-                            <textarea class="form_input" name="" id="mensaje-user" cols="30" rows="10"></textarea>
+                            <textarea class="contacto__form--input form_input" name="" id="mensaje-user" cols="30" rows="10"></textarea>
                             <div class="d-flex pt-4 pb-4">
                                 <label for="consulta-user"></label>
-                                <input class="form_submit" type="submit" value="ENVIAR CONSULTA" id="consulta-user">
+                                <input class="contacto__form--submit form_submit" type="submit" value="ENVIAR CONSULTA" id="consulta-user">
                             </div>
                         </div>
 
                     </form>
                 </div>
 
-                <div class="info_contacto col-12 col-lg-6 mb-5 d-flex flex-column  align-items-center ">
+                <div class="contacto__info col-12 col-lg-6 mb-5 d-flex flex-column">
 
                     <h3 class="fw-bold">Informacion de contacto</h3>
                     <span class="align-self-start">Sucursal Belgrano: La Pampa 2798</span>
