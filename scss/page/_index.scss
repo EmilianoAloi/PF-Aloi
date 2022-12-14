@@ -5,14 +5,18 @@
 }
 
 @media (min-width: 1000px) {
-    .portada__foto {
-        width: 20rem;
-        padding-top: 10rem;
-        margin-right: 3rem;
-    }
 
-    .portada__texto {
-        padding-left: 65px;
+    .portada {
+        &__foto {
+            width: 20rem;
+            padding-top: 10rem;
+            margin-right: 3rem;
+        }
+
+    &__texto {
+            padding-left: 65px;
+
+        }
     }
 }
 
@@ -23,7 +27,7 @@
 }
 
 .float {
-    background-color: #77acc0;
+    background-color: $color-primario;
     width: 80vw;
     height: 70px;
     border-radius: 30px;
@@ -38,13 +42,12 @@
     align-items: center;
     justify-content: center;
     margin-top: 4rem;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: $sombra-titulo;
 
-    
-&__separador {
-    font-weight: 100;
-    font-size: 35px;
-}
+    &__separador {
+        font-weight: 100;
+        font-size: 35px;
+    }
 }
 
 @media (max-width: 1470px) {
@@ -53,35 +56,37 @@
     }
 }
 
+.servicios {
 
-.servicios__time:hover {
-    transform: scale(1.1)
-}
+    &__time {
+        transition: all 1s;
 
-.servicios__time {
-transition: all 1s;
-}
+        &:hover {
+            transform: scale(1.1)
+        }
+    }
 
-.servicios__warranty:hover {
-    transform: scale(1.1)
-}
+    &__warranty {
+        transition: all 1s;
 
-.servicios__warranty {
-    transition: all 1s;
-}
+        &:hover {
+            transform: scale(1.1)
+        }
+    }
 
-.servicios__lab:hover {
-    transform: scale(1.1)
-}
+    &__lab {
+        transition: all 1s;
 
-.servicios__lab {
-    transition: all 1s;
-}
+        &:hover {
+            transform: scale(1.1)
+        }
+    }
 
-.servicios__chat:hover {
-    transform: scale(1.1)
-}
+    &__chat {
+        transition: all 1s;
 
-.servicios__chat {
-    transition: all 1s;
+        &:hover {
+            transform: scale(1.1)
+        }
+    }
 }

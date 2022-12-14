@@ -1,19 +1,13 @@
-.card:hover {
-    transform: scale(1.1)
-}
-
 .card {
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     transition: all 1s;
+
+    &:hover {
+        transform: scale(1.1)
+    }
 }
 
-.btn-dark {
-    background-color: #77acc0;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    border-color: #77acc0;
-    color: #FFFFFF;
-}
 
 .card__nov {
     width: fit-content;
