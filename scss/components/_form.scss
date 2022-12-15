@@ -2,6 +2,11 @@
     padding-top: 6rem;
     padding-bottom: 3rem;
 
+    &__info iframe{
+        border-radius: 10px;
+
+    }
+
     &__form {
         background-color: #77acc0;
         color: #FFFFFF;

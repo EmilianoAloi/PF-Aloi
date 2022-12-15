@@ -180,6 +180,9 @@ main {
   padding-top: 6rem;
   padding-bottom: 3rem;
 }
+.contacto__info iframe {
+  border-radius: 10px;
+}
 .contacto__form {
   background-color: #77acc0;
   color: #FFFFFF;
