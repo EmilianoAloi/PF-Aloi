@@ -13,7 +13,7 @@
             margin-right: 3rem;
         }
 
-    &__texto {
+        &__texto {
             padding-left: 65px;
 
         }
@@ -89,4 +89,69 @@
             transform: scale(1.1)
         }
     }
+}
+
+.clientes {
+
+    &__title {
+        background-color: $color-primario;
+        color: white;
+        padding-top: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        padding: 10px;
+        margin-bottom: 20px;
+        box-shadow: $sombra-titulo
+    }
+
+    &__op1 {
+        width: 300px;
+        background-color: $color-secundario;
+        font-family: Helvetica, sans-serif;
+        color: #000;
+        padding-top: 10rem;
+        border-radius: 20px;
+        padding: 10px;
+        margin-bottom: 20px;
+        
+        & img {
+
+            width: 50px;
+        }
+    }
+
+    &__op2 {
+
+        width: 300px;
+        background-color: $color-secundario;
+        color: #000;
+        padding-top: 10rem;
+        border-radius: 20px;
+        padding: 10px;
+        margin-bottom: 20px;
+
+        & img {
+
+            width: 50px;
+        }
+    }
+
+    &__op3 {
+
+        width: 300px;
+        background-color: $color-secundario;
+        color: #000;
+        padding-top: 10rem;
+        border-radius: 20px;
+        padding: 10px;
+        margin-bottom: 20px;
+
+        & img {
+
+            width: 50px;
+        }
+    }
+
 }
